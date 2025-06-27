@@ -1,14 +1,22 @@
 {
-  "name": "weather",
+  "name": "forkify",
   "version": "1.0.0",
-  "description": "weather channel",
-  "main": "index.html",
+  "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "author": "Madhav",
+  "author": "madhav",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "core-js": "^3.41.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.14.2",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.86.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.0"
   }
 }
